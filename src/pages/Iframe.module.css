@@ -1,0 +1,75 @@
+.iframeContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframe {
+    width: 50vw;
+    height: 75vh;
+    margin: 0 auto;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.iframeForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframeForm form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.iframeForm a {
+    color: #61dafb;
+}
+
+.iframeForm input {
+    background-color: #1f2027;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.2em;
+    color: #f1f1f1;
+    margin-top: 16px;
+    padding: 8px;
+}
+
+.iframeForm button.hoverButton {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #1f2027;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.2em;
+    color: #f1f1f1;
+}
+
+.radio {
+    padding: 8px 0;
+}
+
+.hoveringGif {
+    background-image: url(https://media.giphy.com/media/ule4vhcY1xEKQ/giphy.gif);
+    width: 480px;
+    height: 480px;
+}
+
+.loggedInGif {
+    background-image: url(https://media.giphy.com/media/Od0QRnzwRBYmDU3eEO/giphy.gif);
+    width: 480px;
+    height: 480px;
+}
+
+.wrongPasswordGif {
+    background-image: url(https://media.giphy.com/media/JtLrtaN4VPoKXJRKGB/giphy.gif);
+    width: 480px;
+    height: 480px;
+}
